@@ -5,7 +5,7 @@
         <parameter name="coordination">true</parameter>
         <parameter name="rabbitmq.connection.factory">AMQPConnectionFactory</parameter>
         <parameter name="rabbitmq.server.host.name">$SYSTEM:HOSTNAME</parameter>
-        <parameter name="rabbitmq.server.port">5672</parameter>
+        <parameter name="rabbitmq.server.port">$SYSTEM:PORT</parameter>
         <parameter name="rabbitmq.server.user.name">$SYSTEM:USERNAME</parameter>
         <parameter name="rabbitmq.server.password">$SYSTEM:PASSWORD</parameter>
         <parameter name="rabbitmq.queue.name">SalesOrderQueue</parameter>
